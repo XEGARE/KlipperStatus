@@ -1,0 +1,26 @@
+{
+  "name": "klipperstatus",
+  "version": "1.0.0",
+  "description": "Получение состояния печати принтера на базе прошивки Klipper и отправка результата на Алису",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XEGARE/KlipperStatus.git"
+  },
+  "keywords": [
+    "Алиса",
+    "Klipper",
+    "3D принтер"
+  ],
+  "author": "XEGARE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XEGARE/KlipperStatus/issues"
+  },
+  "homepage": "https://github.com/XEGARE/KlipperStatus#readme"
+}
