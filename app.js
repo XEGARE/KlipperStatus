@@ -2,8 +2,8 @@ import * as http from 'http'
 
 const serverPort = 7000;
 
-const MoonrakerIP = "192.168.1.102"
-const MoonrakerPort = 7125
+const MoonrakerIP = "192.168.1.102";
+const MoonrakerPort = 7125;
 
 const server = http.createServer((req, res) => {
     if(req.url === "/") {
